@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+        
+        <div>
+            <label for="name">Name</label>
+             <input type="text" name="myNmae" id="name" >
+        </div>
+        <br>
+<div>
+    Role: <input type="text" name="myRole" >
+</div>
+<br>
+<div>
+    Email: <input type="email" name="myEmail" >
+</div>
+<br>
+<div>
+    Date: <input type="date" name="myDate" >
+</div>
+<br>
+<div>
+    Bonus: <input type="number" name="myBonus" >
+</div>
+<br>
+<div>
+<label for="eligible">Are you eligible:</label>
+
+     <input type="checkbox" name="myEligible" id="eligible" >
+</div>
+<br>
+<div>
+    Gender: Male<input type="radio" name="myEligible" >Female<input type="radio" name="myEligible" >Other<input type="radio" name="myEligible" >
+</div>
+<br>
+<div>
+    <label for="car">Car</label>
+    <select name="myCar" id="car">
+        <option value="Ind">Indica</option>
+        <option value="Swi">Swift</option>
+        <option value="Plo" selected>Polo</option>
+    </select>
+</div>
+<br>
+<div>
+     <input type="submit" value="Submit Now">
+</div>
+<br>
+<div>
+     <input type="reset" value="Reset Now">
+</div>
+<br>
+<div>
+    Write about yourself: <br><textarea name="myText"  cols="30" rows="10"></textarea>
+</div>
+</form>
+</body>
+</html>

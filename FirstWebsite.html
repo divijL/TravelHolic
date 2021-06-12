@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrAvElHoLiC</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Your best mate to help you out with your trips across the globe.A perfect guide for your dream destinations.">
+    <meta name="Keywords" content="Travel, trip ,holidays,destination">
+    <meta name="robot" content="INDEX , FOLLOW">
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: url(background.jpg);
+        }
+
+        #topheader {
+
+            height: 70px;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 30px;
+            margin: 1px 5px;
+        }
+
+        #name {
+
+            padding-left: 35px;
+            font-family: cursive;
+
+
+
+        }
+
+        .navbar {
+            background-color: black;
+
+            border-radius: 20px;
+
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        #back {
+            border: 4px solid black;
+            margin-left: 15px;
+            margin-right: 15px;
+            border-radius: 20px;
+        }
+
+        .form {
+            position: absolute;
+            display: inline-block;
+            border: 4px solid black;
+            border-radius: 20px;
+            margin: 4px 6px;
+            padding: 10px 20px;
+            font-size: 30px;
+            width: 400px;
+            height: 470px;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="firsthead" id="topheader">
+        <h2 id="name">TrAvElHoLiC</h2>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="FirstWebsite.html">Home</a></li>
+            <li><a href="About.html" target="_parent">About</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <img id="back" src="img2.jpg" alt="error loading image">
+    <div class="form">
+        <form action="backend.php">
+
+            <div>
+                Name:<input type="text" name="myNmae" id="name">
+            </div>
+            <br>
+
+            <div>
+                Email: <input type="email" name="myEmail">
+            </div>
+            <br>
+            <div>
+                Phone Number: <input type="number" id="mynumber">
+            </div>
+            <br>
+
+            <div>
+                Date Of Birth: <input type="date" name="myDate">
+            </div>
+            <br>
+
+
+            <div>
+                Gender: Male<input type="radio" name="myEligible">Female<input type="radio"
+                    name="myEligible">Other<input type="radio" name="myEligible">
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Submit Now">
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Reset Now">
+            </div>
+            <br>
+
+    </div>
+    </div>
+    </form>
+
+
+</body>
+
+</html>
